@@ -25,17 +25,20 @@
 <style>
     .buttons {
         text-align: center;
-        color: #858585
+        color: #858585;
+        /* position:relative */
+        margin-bottom: 30px;
     }
     .buttons span {
         display: inline-block;
         line-height: 1.5;
-        margin: 0 4px 10px 4px;
+        margin: 0 4px 3px 4px;
         border-bottom: 3px solid #dcdcdc;
         font-family: "Liberation Mono",monospace;
-        font-size: 13px;
+        font-size: 0.9rem;
         text-align: center;
-        cursor: pointer
+        cursor: pointer;
+        
     }
     .buttons .selected {
         border-bottom: 3px solid #696969;
@@ -43,9 +46,11 @@
     }
 
     .buttons .headline-units{
-        display: block;
+        /* position:absolute; */
+        display: inline;
         font-size: 1em;
-        margin-top: 5px;
+        /* margin: 3px 10px 30px -10.8em; */
+        box-sizing: border-box;
     }
 
     @media (min-width: 600px) {

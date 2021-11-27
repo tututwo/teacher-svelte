@@ -88,4 +88,10 @@
         opacity: 0.75;
         transform: translateY(-8px);
     }
+
+    .state.AZ rect, .state.CO rect, .state.OK rect, .state.WV rect {
+        fill: #ebe2d7;
+        opacity: .75;
+        transform: translateY(-8px);
+    }
 </style>

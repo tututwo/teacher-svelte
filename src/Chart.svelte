@@ -59,7 +59,7 @@
 
    
         </Svg>
-        <div><p></p></div>
+
         <Html 
             pointerEvents = { false }
         >

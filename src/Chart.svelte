@@ -68,9 +68,7 @@
                     {evt}
                     let:detail
                 >
-                    {#each Object.entries(detail.props) as [key, value]}
-                        <div>{key} : {value}</div>
-                    {/each}
+
                 </Tooltip>
             {/if}
         </Html>

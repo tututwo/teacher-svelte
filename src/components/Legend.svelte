@@ -58,10 +58,12 @@
     color: #696969;
     background-color: #fff;
     font-family: "Liberation Mono",monospace;
-    font-size: 13px;
+    font-size: 1em;
     padding-right: 10px;
     top: 50px;
 }
+
+
 
 
 </style>

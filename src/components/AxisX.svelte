@@ -16,7 +16,7 @@
         <g class = "tick"
         >
             <line stroke="#000" x1 = {$xScale(d)} y1 = 0 x2 = {$xScale(d)} y2 = {$yRange[1]-10}></line>
-            <text transform = "translate({$xScale(d)-10},{$yRange[0]})">${num_format(d)}</text>
+            <text transform = "translate({$xScale(d)-10},{$yRange[0]-10})">${num_format(d)}</text>
             <text transform = "translate({$xScale(d)-10},{$yRange[1]})">${num_format(d)}</text>
         </g>
     {/each}

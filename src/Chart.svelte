@@ -5,6 +5,8 @@
     import Arrows from "./components/Arrows.svelte"
     import Buttons from "./components/Buttons.svelte"
     import Tooltip from "./components/Tooltip.svelte"
+    import AxisX from "./components/AxisX.svelte"
+    import Legend from "./components/Legend.svelte"
 
     import data from "./data/teachers.csv"
     import metrics from "./data/metrics";
@@ -49,12 +51,15 @@
     >
 
         <Svg>
+            <AxisX />
             <Arrows 
                 on:mousemove-rect = {event => evt = hideTooltip = event}
                 on:mouseout-arrows = {(e) => hideTooltip = true}
             />
-        </Svg>
 
+   
+        </Svg>
+        <div><p></p></div>
         <Html 
             pointerEvents = { false }
         >
@@ -69,7 +74,7 @@
                 </Tooltip>
             {/if}
         </Html>
-
+        <Legend />
     </LayerCake>
 </figure>
 

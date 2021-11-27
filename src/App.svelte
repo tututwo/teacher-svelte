@@ -4,8 +4,7 @@
 
 <main>
 	<section>
-		<h1 class = "headline">Change in teacher salary, 2010–20</h1>
-		<p>showing changes in the past decade</p>
+		<h1 class = "headline">Change in teacher salary, 2010–16</h1>
 	</section>
 
 	<Chart/>

@@ -10,11 +10,10 @@
     $: width = $xRange[1]
     $: height = $yScale.bandwidth()
     
-
     const options = {
-        duration: 500,
-        easing: expoOut,
-        delay: 5*i
+        duration: 800,
+        delay: i * 2,
+        easing: expoOut
     }
     
     const x1Tween = tweened(x1, options)
@@ -32,10 +31,10 @@
     class:negative = {class_sign}
     class = {'state' + " " + Abbr}
     transform = "translate(0, {$yTween})"
+    on:mouseover
 >
     <rect 
         {width} {height}
-        on:mouseover
     />
     <text
         class = "state-label"

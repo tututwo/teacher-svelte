@@ -34,7 +34,7 @@
 180deg);
 }
 .legend .arrow.decrease {
-    background: url(https://graphics.axios.com/2018-03-23-teacher-salary/img/arrow-increase.svg);
+    background: url(https://graphics.axios.com/2018-03-23-teacher-salary/img/arrow-decrease.svg);
 }   
 .legend .walkout-bar {
     background-color: #ebe2d7;
